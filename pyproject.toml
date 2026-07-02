@@ -3,11 +3,11 @@ requires = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "project_name"
+name = "agilab_practice"
 version = "0.1.0"
 description = "AGILAB Research Software Template"
 authors = [
-    {name = "AGILAB NTNU", email = "mjhsu@ntnu.edu.tw"}
+    {name = "KafuuChino", email = "jasper93413@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.7"
