@@ -7,7 +7,7 @@ name = "agilab_practice"
 version = "0.1.0"
 description = "AGILAB Research Software Template"
 authors = [
-    {name = "AGILAB NTNU", email = "mjhsu@ntnu.edu.tw"}
+    {name = "KafuuChino", email = "jasper93413@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.7"
