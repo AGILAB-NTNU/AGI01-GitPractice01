@@ -46,9 +46,10 @@ if __name__ == "__main__":
     import numpy as np
     import torch
     import torchvision as tv
-    from AGILAB.models import CNN
     from IPython.display import clear_output
     from torch import nn
+
+    from AGILAB.models import CNN
 
     ssl._create_default_https_context = ssl._create_unverified_context
 
