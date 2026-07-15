@@ -37,9 +37,9 @@ MANIFEST
 
 # Data
 # Ignore everything in data except .gitkeep files to maintain directory structure
-data/*
-!data/**/.gitkeep
-!data/.gitkeep
+dataset/*
+!dataset/**/.gitkeep
+!dataset/.gitkeep
 
 # Jupyter Notebook
 .ipynb_checkpoints
