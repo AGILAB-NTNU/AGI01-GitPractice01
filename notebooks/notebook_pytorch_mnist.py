@@ -117,3 +117,8 @@ for i in range(epochs):
 acc_cnn = np.array(acc_cnn)  # 將每一訓練迴圈的預測準確率存進陣列，以便稍後進行視覺化
 losses = np.array(losses)  # 將每一訓練迴圈的損失存進陣列，以便稍後進行視覺化
 # %%
+plt.figure(figsize=(10, 7))
+plt.xlabel("Training Epochs", fontsize=16)
+plt.ylabel("Training accuracy", fontsize=16)
+plt.plot(acc_cnn)
+# %%
