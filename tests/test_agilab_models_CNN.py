@@ -7,6 +7,7 @@ Description: 編寫agilab_models_CNN的測試檔
 """
 
 import torch
+
 from agilab.models import CNN
 
 
@@ -28,6 +29,6 @@ def test_softmax_output():
     output_tensor = model(input_tensor)
     softmax_output = torch.exp(output_tensor)
     sum_probs = torch.sum(softmax_output, dim=1)
-    assert torch.allclose(
-        sum_probs, torch.tensor([1.0])
-    ), f"Softmax output should sum to 1, but got {sum_probs}"
+    assert torch.allclose(sum_probs, torch.tensor([1.0])), (
+        f"Softmax output should sum to 1, but got {sum_probs}"
+    )
