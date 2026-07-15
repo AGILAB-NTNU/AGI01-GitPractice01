@@ -70,3 +70,14 @@ class CNN(torch.nn.Module):
 
 
 # %%
+def prepare_images(xt):  # 對圖片進行預處理，以符合PyTorch的格式需求
+    out = torch.zeros(xt.shape)
+    for i in range(xt.shape[0]):
+        img = xt[i].unsqueeze(dim=0)  # 加入批次軸
+        out[i] = img
+    return out
+
+
+# %%
+
+# %%
