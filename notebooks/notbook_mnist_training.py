@@ -71,3 +71,10 @@ def prepare_images(xt):  # 對圖片進行預處理，以符合PyTorch的格式�
 
 
 # %%
+model = CNN()  # 建立CNN模組的實例
+epochs = 100  # 定義訓練迴圈
+batch_size = 500  # 定義批次大小
+lr = 1e-3
+opt = torch.optim.Adam(params=model.parameters(), lr=lr)
+lossfn = nn.NLLLoss()
+# %%
